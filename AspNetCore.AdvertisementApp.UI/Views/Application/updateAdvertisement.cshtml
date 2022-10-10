@@ -1,0 +1,45 @@
+﻿@model AdvertisementUpdateDto
+@{
+    ViewData["Title"] = "Home Page";
+    //Layout = "_Layout.cshtml";
+
+
+}<div class="container-fluid">
+
+    <form asp-action="updateAdvertisement" asp-controller="Application" mmethod="Post">
+        <input type="hidden" asp-for="@Model.Id">
+        <div class="form-group">
+            <label>Title</label>
+            <input type="text" class="form-control" asp-for="@Model.Title" />
+        </div>
+        <div class="form-group">
+            <label class="form-check-label">Active</label>
+            <input type="checkbox" class="form-check-input" asp-for="@Model.Status" />
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <textarea asp-for="@Model.Description" class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" class="btn btn-success btn-sm">Update Advertisement</button>
+        </div>
+    </form>
+</div>
+@section sectionAdı{
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.25.2/trumbowyg.min.js"
+        integrity="sha512-mBsoM2hTemSjQ1ETLDLBYvw6WP9QV8giiD33UeL2Fzk/baq/AibWjI75B36emDB6Td6AAHlysP4S/XbMdN+kSA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#Description").trumbowyg()
+        })
+    </script>
+}
+    @section css{
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.25.2/ui/trumbowyg.min.css"
+      integrity="sha512-K87nr2SCEng5Nrdwkb6d6crKqDAl4tJn/BD17YCXH0hu2swuNMqSV6S8hTBZ/39h+0pDpW/tbQKq9zua8WiZTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}

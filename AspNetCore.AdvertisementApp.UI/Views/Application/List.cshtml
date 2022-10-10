@@ -1,0 +1,45 @@
+﻿@model List<AdvertisementListDto>
+@{
+    ViewData["Title"] = "Home Page";
+    //Layout = "_Layout.cshtml";
+}<div class="container-fluid">
+    @{
+        <div class="text-end my-3 p-1 text-dark">
+            <a asp-action="AddNewAdvertisement" asp-controller="Application" class="mr-2">Add New Advertisement</a>
+        </div>
+        if (Model.Count > 0 && Model!=null)
+        {
+
+            <table class="table table-sm table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>Advertisement</th>
+                        <th>Create Date</th>
+                        <th>Status</th>
+                        <th>Process</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Title</td>
+                            <td>@item.CreatedDate.ToString("dddd dd MMMMM yyyy")</td>
+                            <td>@(item.Status?"Active":"Passive")</td>
+                                <td>
+                                <a asp-action="updateAdvertisement" asp-controller="Application" asp-route-AdvertisementId="@item.Id" class="btn btn-success btn-sm">Update</a>
+                                <a asp-action="deleteAdvertisement" asp-controller="Application" asp-route-AdvertisementId="@item.Id" class="btn btn-success btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <div class="mt-3 text-center lead">
+                Have not any advertisement
+            </div>
+        }
+    }
+</div>

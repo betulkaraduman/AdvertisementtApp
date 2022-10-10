@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.AdvertisementApp.Common", "AspNetCore.AdvertisementApp.Common\AspNetCore.AdvertisementApp.Common.csproj", "{0B56B5F5-8013-468D-8D8F-D6AAA688FAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.AdvertisementApp.Entities", "AspNetCore.AdvertisementApp.Entities\AspNetCore.AdvertisementApp.Entities.csproj", "{E5C4AE95-FAC3-4F4D-9B24-AD5562D96FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.AdvertisementApp.DataAccess", "AspNetCore.AdvertisementApp.DataAccess\AspNetCore.AdvertisementApp.DataAccess.csproj", "{E3E82FDD-9A66-4FD0-903D-1D73949F03F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.AdvertisementApp.Business", "AspNetCore.AdvertisementApp.Business\AspNetCore.AdvertisementApp.Business.csproj", "{91D3342D-50BB-46DD-9162-98DD69119104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.AdvertisementApp.UI", "AspNetCore.AdvertisementApp.UI\AspNetCore.AdvertisementApp.UI.csproj", "{B9938B87-8DD8-4E72-916A-CC4F668BE467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.AdvertisementApp.Dto", "AspNetCore.AdvertisementApp.Dto\AspNetCore.AdvertisementApp.Dto.csproj", "{3DD050AD-F1D7-49AC-B5B2-28F5F844F711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B56B5F5-8013-468D-8D8F-D6AAA688FAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B56B5F5-8013-468D-8D8F-D6AAA688FAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B56B5F5-8013-468D-8D8F-D6AAA688FAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B56B5F5-8013-468D-8D8F-D6AAA688FAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C4AE95-FAC3-4F4D-9B24-AD5562D96FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C4AE95-FAC3-4F4D-9B24-AD5562D96FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C4AE95-FAC3-4F4D-9B24-AD5562D96FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C4AE95-FAC3-4F4D-9B24-AD5562D96FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E82FDD-9A66-4FD0-903D-1D73949F03F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E82FDD-9A66-4FD0-903D-1D73949F03F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E82FDD-9A66-4FD0-903D-1D73949F03F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E82FDD-9A66-4FD0-903D-1D73949F03F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D3342D-50BB-46DD-9162-98DD69119104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D3342D-50BB-46DD-9162-98DD69119104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D3342D-50BB-46DD-9162-98DD69119104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D3342D-50BB-46DD-9162-98DD69119104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9938B87-8DD8-4E72-916A-CC4F668BE467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9938B87-8DD8-4E72-916A-CC4F668BE467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9938B87-8DD8-4E72-916A-CC4F668BE467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9938B87-8DD8-4E72-916A-CC4F668BE467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD050AD-F1D7-49AC-B5B2-28F5F844F711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD050AD-F1D7-49AC-B5B2-28F5F844F711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD050AD-F1D7-49AC-B5B2-28F5F844F711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD050AD-F1D7-49AC-B5B2-28F5F844F711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC71C8A9-9C9C-4FE8-B4BA-80C9F5B8432F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "OjOoLFZi/u2m08OphKRQAFuMsGw/x3AJevtqCgD20groA2cKR3klz4mXnMngpx50UUxVVICLrVWyyw7mb4Nzcg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MONSTER\\source\\repos\\AspNetCore.AdvertisementApp\\AspNetCore.AdvertisementApp.Dto\\AspNetCore.AdvertisementApp.Dto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MONSTER\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.2\\fluentvalidation.dependencyinjectionextensions.11.2.2.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\MONSTER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

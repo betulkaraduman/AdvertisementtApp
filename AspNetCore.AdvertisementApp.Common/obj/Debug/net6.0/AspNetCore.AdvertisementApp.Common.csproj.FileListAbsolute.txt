@@ -1,0 +1,12 @@
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\bin\Debug\net6.0\AspNetCore.AdvertisementApp.Common.deps.json
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\bin\Debug\net6.0\AspNetCore.AdvertisementApp.Common.dll
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\bin\Debug\net6.0\AspNetCore.AdvertisementApp.Common.pdb
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.csproj.AssemblyReference.cache
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.AssemblyInfoInputs.cache
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.AssemblyInfo.cs
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.dll
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\refint\AspNetCore.AdvertisementApp.Common.dll
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\AspNetCore.AdvertisementApp.Common.pdb
+C:\Users\MONSTER\source\repos\AspNetCore.AdvertisementApp\AspNetCore.AdvertisementApp.Common\obj\Debug\net6.0\ref\AspNetCore.AdvertisementApp.Common.dll

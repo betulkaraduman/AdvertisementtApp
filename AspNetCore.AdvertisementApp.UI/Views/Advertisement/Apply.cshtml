@@ -1,0 +1,65 @@
+﻿@model AdvertisementAppUserCreateModel
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <form asp-action="Apply" asp-controller="Advertisement" method="Post" enctype="multipart/form-data" class="w-75 mx-auto p-3">
+        <input type="hidden" asp-for="@Model.AdvertisementId">
+        <input type="hidden" asp-for="@Model.AppUserId">
+
+        <div class="mb-3">
+            <label>Work Experience</label>
+            <input class="form-control" type="number" asp-for="@Model.WorkExperience">
+        </div>
+
+        <div class="mb-3">
+            <label>Cv</label>
+            <input class="form-control" type="file" asp-for="@Model.CvPath">
+        </div>
+        @if (ViewBag.GenderId == (int)GenderType.Man)
+        {
+            <div class="mb-3">
+                <label>Military Status</label>
+                <select onchange="setInputVisibility()" asp-for="@Model.MilitaryStatusId" asp-items="@ViewBag.MilitaryStatus" class="form-select">
+                </select>
+
+            </div>
+            <div id="endDateInput" class="mb-3" style="display:none">
+                <label>Deferred Date</label>
+                <input class="form-control" type="date" asp-for="@Model.EndDate">
+            </div>
+        }
+        else
+        {
+
+            <div class="mb-3">
+                <input asp-for="@Model.MilitaryStatusId" type="hidden" value="@((int)MilitaryStatusType.Exempt)">
+
+            </div>
+        }
+        <div class="mb-3">
+            <button type="submit" class="btn btn-success btn-sm">Apply</button>
+        </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
+    </form>
+</div>
+
+@section sectionAdı{
+    <script>
+        setInputVisibility()
+        function setInputVisibility() {
+            var selectedElement = document.getElementById("MilitaryStatusId")
+            var mStatusId = selectedElement.value;
+            if (mStatusId == 2) {
+                var endDateInput = document.getElementById("endDateInput");
+                endDateInput.style.display = "block";
+            } else {
+
+                var endDateInput = document.getElementById("endDateInput");
+                endDateInput.style.display = "none";
+            }
+            console.log(mStatusId)
+        }
+    </script>
+}
